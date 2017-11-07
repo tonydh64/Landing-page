@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Dopestyle';
+    src: url('Dopestyle.ttf') format('truetype');
+}
+
+h1 {
+  color: red;
+  font-family: 'Dopestyle', Arial, serif;
+  text-align: center;
+  font-size: 80px;
+}
+
+body {
+
+ background-image: url(http://www.pizza-jory.fr/userfiles/2740/Pizza_Jory_fond.jpg);
+ background-position: center;
+ background-repeat: no-repeat ; /*pas de répition de l'image*/
+ background-attachment: scroll;
+}
