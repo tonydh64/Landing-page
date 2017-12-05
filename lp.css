@@ -13,15 +13,6 @@
   font-size: 50px;
 }
 
-#Titre1 {
- display: flex;
- justify-content: space-around;
- justify-content: center;
- align-content: flex-start;
- color: yellow;
- font-family: 'Dopestyle', Arial, serif;
- font-size: 50px;
-}
 
 
 body {
@@ -63,34 +54,45 @@ height: 200px;
 
 
 
-
+/*
 #chall2 {
-    display: flex;
+    display: flex;*/
     /*justify-content: space-between;*/
     /*flex-wrap : wrap;*/
-    align-items : baseline;
-    /*align-content: flex-start;*/
-    /*flex-direction: column*/
-    border-style: solid;
+    /*align-items : baseline;*/
+                                      /*align-content: flex-start;*/
+                                      /*flex-direction: column*/
+
+    /*border-style: solid;
     color: white;
     font-size: 30px;
 }
 .nompizza {
   justify-content: flex-start;
   align-content: flex-end;
+}*/
+#di
+{
+	flex-direction: column;
+}
+#bas
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 #chall3 {
   display: flex;
   flex-wrap: wrap;
 }
-/*
+
 p {
   color: white;
   font-size: 30px;
   display: flex;
   align-items: flex-end;
-}*/
+}
 
 
 
