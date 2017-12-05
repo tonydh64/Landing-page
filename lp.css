@@ -3,17 +3,120 @@
     src: url('Dopestyle.ttf') format('truetype');
 }
 
-h1 {
-  color: grey;
+ #titre {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  color: yellow;
   font-family: 'Dopestyle', Arial, serif;
   text-align: center;
-  font-size: 80px;
+  font-size: 50px;
 }
+
+#Titre1 {
+ display: flex;
+ justify-content: space-around;
+ justify-content: center;
+ align-content: flex-start;
+ color: yellow;
+ font-family: 'Dopestyle', Arial, serif;
+ font-size: 50px;
+}
+
 
 body {
 
  background-image: url(http://www.pizza-jory.fr/userfiles/2740/Pizza_Jory_fond.jpg);
- background-position: center;
- background-repeat: no-repeat ; /*pas de répition de l'image*/
+ /*background-position: center;
+ background-repeat: no-repeat;     */
  background-attachment: scroll;
+ height: 100%;
+ width:100%;
+ /*width: 100%;
+ max-width: 1000px;
+ min-width: 1000px;*/
+
 }
+
+
+
+#chall1
+{
+    font-family: 'Dopestyle', Arial, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items : flex-start;
+    flex-direction: row;
+    border-style: solid;
+        color: white;
+        font-size: 50px;
+}
+
+.image {
+background-size: cover;
+width: 300px;
+height: 200px;
+}
+
+
+
+
+
+
+
+#chall2 {
+    display: flex;
+    /*justify-content: space-between;*/
+    /*flex-wrap : wrap;*/
+    align-items : baseline;
+    /*align-content: flex-start;*/
+    /*flex-direction: column*/
+    border-style: solid;
+    color: white;
+    font-size: 30px;
+}
+.nompizza {
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+#chall3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*
+p {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: flex-end;
+}*/
+
+
+
+
+/*#chal1
+{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 50px;
+    border: 40px solid transparent;
+
+
+
+}
+
+#regina
+{
+  width: 500px;
+}*/
+
+
+
+/*h3 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+}*/
