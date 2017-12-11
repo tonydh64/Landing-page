@@ -13,6 +13,14 @@
   font-size: 50px;
 }
 
+#titrechall2 {
+ display: flex;
+ justify-content: center;
+ align-content: flex-start;
+ color: yellow;
+ font-family: 'Dopestyle', Arial, serif;
+ font-size: 50px;
+}
 
 
 body {
@@ -23,8 +31,7 @@ body {
  background-attachment: scroll;
  height: 100%;
  width:100%;
- /*width: 100%;
- max-width: 1000px;
+ /*max-width: 1000px;
  min-width: 1000px;*/
 
 }
@@ -49,20 +56,54 @@ width: 300px;
 height: 200px;
 }
 
+.nompizza
+{
+  font-family: 'Dopestyle', Arial, serif;
+  font-size: 20px;
+  color: white;
+}
+
+h4
+{
+  font-family: 'Dopestyle', Arial, serif;
+  font-size: 30px;
+  color: red;
+}
+
+#chall2
+{
+  border-style: solid;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
+
+}
+
+#chall3 {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 
+@media only screen {
+@mediascreen and (max-width: 768px)
 
 
-/*
-#chall2 {
+/* Mobile styles is set under 768px*/
+@mediascreen and (max-width: 768px)
+{body {font-size: 2.0em; }}
+ }
+
+/*#chall2 {
     display: flex;*/
-    /*justify-content: space-between;*/
-    /*flex-wrap : wrap;*/
+                                  /*justify-content: space-between;*/
+                                  /*flex-wrap : wrap;*/
     /*align-items : baseline;*/
-                                      /*align-content: flex-start;*/
-                                      /*flex-direction: column*/
-
+                                  /*align-content: flex-start;*/
+                                  /*flex-direction: column*/
     /*border-style: solid;
     color: white;
     font-size: 30px;
@@ -71,28 +112,15 @@ height: 200px;
   justify-content: flex-start;
   align-content: flex-end;
 }*/
-#di
-{
-	flex-direction: column;
-}
-#bas
-{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
 
-#chall3 {
-  display: flex;
-  flex-wrap: wrap;
-}
 
+/*
 p {
   color: white;
   font-size: 30px;
   display: flex;
   align-items: flex-end;
-}
+}*/
 
 
 
