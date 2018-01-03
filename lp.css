@@ -26,8 +26,8 @@
 body {
 
  background-image: url(http://www.pizza-jory.fr/userfiles/2740/Pizza_Jory_fond.jpg);
- /*background-position: center;
- background-repeat: no-repeat;     */
+ /*background-position: center;*/
+ /*background-repeat: no-repeat;     */
  background-attachment: scroll;
  height: 100%;
  width:100%;
@@ -54,11 +54,18 @@ body {
 background-size: cover;
 width: 300px;
 height: 200px;
+/*width: 50%;*/
 }
 .image1 {
 background-size: cover;
 width: 300px;
 height: 200px;
+transition: 0.9s;
+}
+
+.image1:hover {
+  background: firebrick;
+  transform: rotateZ(10deg) 
 }
 
 .nompizza
@@ -93,11 +100,16 @@ h4
 
 
 
-
 @media screen and (max-width: 935px)
 {
+
   .image1 {
     display : none; }
+
+  img {
+    width: 100%;
+  }
+
 }
 
 
