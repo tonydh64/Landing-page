@@ -65,7 +65,7 @@ transition: 0.9s;
 
 .image1:hover {
   background: firebrick;
-  transform: rotateZ(10deg) 
+  transform: rotateZ(10deg)
 }
 
 .nompizza
@@ -73,6 +73,16 @@ transition: 0.9s;
   font-family: 'Dopestyle', Arial, serif;
   font-size: 20px;
   color: white;
+}
+
+
+#imagepizza {
+transition: 0.5s;
+}
+
+#imagepizza:hover
+{
+  transform: scale(1.2);
 }
 
 h4
